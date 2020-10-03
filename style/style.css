@@ -1,0 +1,119 @@
+*
+{
+	box-sizing: border-box;
+}
+.primary-background
+{
+	background: #424242!important;	
+}
+.error {
+    color: red;
+    font-size: 80%;
+}
+.jumbotron{
+	border-radius: unset;
+}
+.card-body
+{
+	color: black;
+}
+.manu-bar
+{
+	background: #424242!important;	
+	text-align: right;
+	padding-top: 0px;
+	position: relative;
+}
+
+.manu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	padding-top: 0px;
+}
+.manu-bar ul li
+{
+	display: inline-flex;
+	color: white;
+	text-align: right;
+	position: relative;
+	width: 140px;
+	margin: 10px;
+	padding-bottom: 10px;
+	
+}
+.active, .manu-bar ul li a:hover
+{
+	
+	color: black;
+	border-radius: 3px;
+}
+
+.nav-link
+{
+	color: white;
+}
+.manu-bar .fa 
+{
+	margin-right: 8px;
+}
+.sub-menu-1
+{
+	display: none;
+	text-align: left;
+}
+.manu-bar  ul li:hover .sub-menu-1
+{
+	width: 215px;
+	text-align: left;
+	display: block;
+	position: absolute;
+	color: black;
+	background-color:white;
+	margin-top: 39px;
+	margin-left: -50px;	
+}
+.manu-bar ul li:hover .sub-menu-1 ul 
+{
+	display:block;
+	margin-top: 5px;
+	padding-left: 15px;
+	color: black;
+	background: transparent;
+	border-radius: 0;
+}
+.manu-bar ul li:hover .sub-menu-1 ul li
+{
+
+	padding: 1px;
+	padding-left: 5px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0;
+}
+.manu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+
+}
+.manu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: tomato;	
+}
+#getdata{
+	margin-top: 10px;
+}
+
+.plist table, th, td, tr{
+	border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
